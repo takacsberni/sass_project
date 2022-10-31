@@ -9,14 +9,14 @@ header {
   height: 100vh;
 }
 header button {
-  background: rgb(71, 188, 50);
-  color: rgb(18, 138, 100);
+  background: rgba(55, 64, 109, 0.428);
+  color: rgb(0, 0, 0);
 }
 header button:hover {
-  background: red;
+  background: rgb(212, 209, 10);
 }
 header button::after {
-  content: "Helloooo";
+  content: " button";
 }
 header p {
   background: rgba(243, 239, 36, 0.213);
@@ -39,5 +39,5 @@ h2, .contact {
 }
 
 .contact button {
-  background: rgb(71, 188, 50);
+  background: rgba(55, 64, 109, 0.428);
 }/*# sourceMappingURL=style.css.map */

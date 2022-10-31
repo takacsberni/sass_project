@@ -16,10 +16,10 @@ header {
         background: $primaryBtn;
         color: $headerBtnTextColor;
     &:hover{
-        background: red;
+        background: rgb(212, 209, 10);
     }
     &::after {
-        content: "Helloooo"
+        content: " button"
     }
     }
     p {
