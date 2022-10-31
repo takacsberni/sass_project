@@ -22,6 +22,10 @@ header p {
   background: rgba(243, 239, 36, 0.213);
 }
 
+h2, .contact {
+  font-family: "Courier New", Courier, monospace;
+}
+
 .contact {
   height: 100vh;
   display: flex;

@@ -3,7 +3,8 @@
 
 
 .contact {
-    @include flexCenter(row, rgb(138, 143, 165));
+    @include flexCenter(row, rgb(138, 143, 165)); //use a mixin called flexCenter from _header
+    @extend h2; //extend here the rules written for h2 elements from _header
 }
 
 .contact button {

@@ -13,8 +13,8 @@ header {
     color: $textColor;
     height: 100vh;
     button {
-    background: $primaryBtn;
-    color: $headerBtnTextColor;
+        background: $primaryBtn;
+        color: $headerBtnTextColor;
     &:hover{
         background: red;
     }
@@ -25,4 +25,8 @@ header {
     p {
         background: $colorOfParagraph;
     }
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
 }
