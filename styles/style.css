@@ -1,0 +1,36 @@
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: rgb(215, 152, 16);
+  color: rgb(141, 77, 77);
+  height: 100vh;
+}
+header button {
+  background: rgb(71, 188, 50);
+  color: rgb(18, 138, 100);
+}
+header button:hover {
+  background: red;
+}
+header button::after {
+  content: "Helloooo";
+}
+header p {
+  background: rgba(243, 239, 36, 0.213);
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: rgb(138, 143, 165);
+}
+
+.contact button {
+  background: rgb(71, 188, 50);
+}/*# sourceMappingURL=style.css.map */
