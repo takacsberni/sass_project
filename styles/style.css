@@ -24,6 +24,7 @@ header p {
 
 h2, .contact {
   font-family: "Courier New", Courier, monospace;
+  font-size: 2vh;
 }
 
 .contact {
@@ -33,6 +34,7 @@ h2, .contact {
   align-items: center;
   flex-direction: row;
   background: rgb(138, 143, 165);
+  font-size: 6vh;
 }
 
 .contact button {
